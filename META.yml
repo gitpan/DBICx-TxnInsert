@@ -1,0 +1,25 @@
+---
+abstract: 'wrap all inserts into transaction'
+author:
+  - 'Vladimir Timofeev <vovkasm@gmail.com>'
+build_requires:
+  DBD::Mock: 0
+  Test::Compile: 0
+  Test::More: 0
+distribution_type: module
+generated_by: 'Module::Install version 0.79'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: DBICx-TxnInsert
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  DBIx::Class: 0.0801
+  perl: 5.6.1
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.01
